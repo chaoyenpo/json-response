@@ -1,0 +1,26 @@
+{
+    "name": "chaoyenpo/json-response",
+    "description": "A simple json response.",
+    "keywords": ["json", "response"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yen-po Chao",
+            "email": "chao.yen.po@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "Chaoyenpo\\ResponseClass\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
